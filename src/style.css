@@ -218,7 +218,7 @@ header {
     transition: 200ms ease-out;
 }
 
-.menu-item:hover {
+.menu-item:hover, .menu-item.active {
     background-color: hsla(360, 100%, 100%, 0.4);
     color: black;
 }
@@ -253,4 +253,18 @@ main{
     background-color: hsla(0, 0%, 0%, 1);
     transform: scale(1.2, 1.2);
     cursor: pointer;
+}
+
+.menu-img {
+  height: 35rem;
+  width: 40rem;
+  overflow: auto;
+  background-image: url('./images/rsz_1habanero-letak-2022-scaled.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main.contact {
+  font-size: 2rem;
+  gap: none;
 }
